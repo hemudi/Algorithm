@@ -21,6 +21,7 @@
 |[모의고사](https://programmers.co.kr/learn/courses/30/lessons/42840)|[코드](Programmers/programmers_42840.js)|✅|
 |[2016년](https://programmers.co.kr/learn/courses/30/lessons/12901)|[코드](Programmers/programmers_12901.js)|✅|
 |[약수의 합](https://programmers.co.kr/learn/courses/30/lessons/12928)|[코드](Programmers/programmers_12928.js)|✅|
+|[부족한 금액 계산하기](https://programmers.co.kr/learn/courses/30/lessons/82612)|[코드](Programmers/programmers_82612.js)|✅|
 ---
 ### __🗂 Hacker Rank__
 |문제|풀이|해결|
