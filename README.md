@@ -24,6 +24,7 @@
 |[부족한 금액 계산하기](https://programmers.co.kr/learn/courses/30/lessons/82612)|[코드](Programmers/programmers_82612.js)|✅|
 |[로또의 최고 순위와 최저 순위](https://programmers.co.kr/learn/courses/30/lessons/77484)|[코드](Programmers/programmers_77484.js)|✅|
 |[K번째수](https://programmers.co.kr/learn/courses/30/lessons/42748)|[코드](Programmers/programmers_42748.js)|✅|
+|[없는 숫자 더하기](https://programmers.co.kr/learn/courses/30/lessons/86051)|[코드](Programmers/programmers_86051.js)|✅|
 ---
 ### __🗂 HackerRank__
 |문제|풀이|해결|
