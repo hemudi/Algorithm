@@ -26,6 +26,7 @@
 |[K번째수](https://programmers.co.kr/learn/courses/30/lessons/42748)|[코드](Programmers/programmers_42748.js)|✅|
 |[없는 숫자 더하기](https://programmers.co.kr/learn/courses/30/lessons/86051)|[코드](Programmers/programmers_86051.js)|✅|
 |[음양 더하기](https://programmers.co.kr/learn/courses/30/lessons/76501)|[코드](Programmers/programmers_76501.js)|✅|
+|[두 정수 사이 합](https://programmers.co.kr/learn/courses/30/lessons/12912)|[코드](Programmers/programmers_12912.js)|✅|
 ---
 ### __🗂 HackerRank__
 |문제|풀이|해결|
