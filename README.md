@@ -27,6 +27,7 @@
 |[없는 숫자 더하기](https://programmers.co.kr/learn/courses/30/lessons/86051)|[코드](Programmers/programmers_86051.js)|✅|
 |[음양 더하기](https://programmers.co.kr/learn/courses/30/lessons/76501)|[코드](Programmers/programmers_76501.js)|✅|
 |[두 정수 사이 합](https://programmers.co.kr/learn/courses/30/lessons/12912)|[코드](Programmers/programmers_12912.js)|✅|
+|[나머지가 1이 되는 수 찾기](https://programmers.co.kr/learn/courses/30/lessons/87389)|[코드](Programmers/programmers_87389.js)|✅|
 ---
 ### __🗂 HackerRank__
 |문제|풀이|해결|
