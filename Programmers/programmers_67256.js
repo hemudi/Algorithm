@@ -22,57 +22,40 @@ for(num of numbers)
 
 function solution(numbers, hand){
     let answer = '';
-    let left = 4;
-    let right = 4;
-    let centerIdx = 0;
+    let handIdx = { left : 4, right : 4 }
     let isCenter = { left : false, right : false }
-    let leftTemp = 0;
-    let rightTemp = 0;
+    let distance = { left : 0, right : 0 }
+    let centerIdx = -1;
 
     for(const num of numbers){
         if(num !== 0 && Number.isInteger((num / 3))) {
             answer += 'R';
-            right = num / 3;
+            handIdx['right'] = num / 3;
             isCenter['right'] = false;
             continue;
         }
 
         if(num !== 0 && Number.isInteger((num + 2) / 3)){
             answer += 'L';
-            left = ( num + 2 ) / 3;
+            handIdx['left'] = ( num + 2 ) / 3;
             isCenter['left'] = false;
             continue;
         }
 
         centerIdx = num === 0 ? 4 : ( num + 1 ) / 3;
-        leftTemp = Math.abs(left - centerIdx);
-        rightTemp = Math.abs(right - centerIdx);
-        leftTemp += isCenter['left'] ? 0 : 1;
-        rightTemp += isCenter['right'] ? 0 : 1;
+        distance['left'] = Math.abs(handIdx['left'] - centerIdx) + (isCenter['left'] ? 0 : 1);
+        distance['right'] = Math.abs(handIdx['right'] - centerIdx) + (isCenter['right'] ? 0 : 1);
 
-        if(leftTemp > rightTemp){
+        if(distance['left'] > distance['right'] || (distance['left'] === distance['right'] && hand === 'right')){
             answer += 'R';
-            right = centerIdx;
+            handIdx['right'] = centerIdx;
             isCenter['right'] = true;
             continue;
         }
 
-        if(leftTemp < rightTemp){
-            answer += 'L';
-            left = centerIdx;
-            isCenter['left'] = true;
-            continue;
-        }
-
-        if(hand === 'left'){
-            answer += 'L';
-            left = centerIdx;
-            isCenter['left'] = true;
-        } else {
-            answer += 'R';
-            right = centerIdx;
-            isCenter['right'] = true;
-        }
+        answer += 'L';
+        handIdx['left'] = centerIdx;
+        isCenter['left'] = true;
     }
 
     return answer;
