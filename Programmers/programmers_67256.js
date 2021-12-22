@@ -10,23 +10,33 @@
     * output
       - result : 사용한 손가락 순서 문자열 'LRLLLRLLRRL'
 
-*/
-
-/*
-
 for(num of numbers)
   - num => [1, 4, 7] => left + 2 / 3 => 1 2 3
   - num => [3, 6, 9] => right / 3 => 1 2 3
   - num => [2, 5, 8, 0] => 가까운 손가락으로 => 이걸 판별하려면 이전 손가락의 위치를 기억해야함
+
+  - 1 4 7 => + 2 / 3 => 1 2 3
+  - 3 6 9 => / 3 => 1 2 3
+  - 2 5 8 => + 1 / 3 => 1 2 3
+  - 0 => 4
+  - * # => 4
+
+  1 2 3      1 1 1
+  4 5 6  ->  2 2 2
+  7 8 9  ->  3 3 3
+  * 0 #      4 4 4
+
+  y 축 거리 계산 후에 isCenter 값에 따라 x 축 거리 추가
+
 */
 
 function solution(numbers, hand){
     let answer = '';
-    let handIdx = { left : 4, right : 4 }
-    let isCenter = { left : false, right : false }
-    let distance = { left : 0, right : 0 }
     let centerIdx = -1;
-
+    let handIdx = { left : 4, right : 4 }
+    let distance = { left : 0, right : 0 }
+    let isCenter = { left : false, right : false }
+    
     for(const num of numbers){
         if(num !== 0 && Number.isInteger((num / 3))) {
             answer += 'R';
