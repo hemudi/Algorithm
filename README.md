@@ -31,6 +31,7 @@
 |[문자열 다루기 기본](https://programmers.co.kr/learn/courses/30/lessons/12918)|[코드](Programmers/programmers_12918.js)|✅|
 |[키패드 누르기](https://programmers.co.kr/learn/courses/30/lessons/67256)|[코드](Programmers/programmers_67256.js)|✅|
 |[가운데 글자 가져오기](https://programmers.co.kr/learn/courses/30/lessons/12903)|[코드](Programmers/programmers_12903.js)|✅|
+|[수박수박수박수박수박수?](https://programmers.co.kr/learn/courses/30/lessons/12922)|[코드](Programmers/programmers_12922.js)|✅|
 ---
 ### __🗂 HackerRank__
 |문제|풀이|해결|
