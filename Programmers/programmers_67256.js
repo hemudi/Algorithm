@@ -29,7 +29,6 @@ for(num of numbers)
   y 축 거리 계산 후에 isCenter 값에 따라 x 축 거리 추가
 
 */
-
 function solution(numbers, hand){
     let answer = '';
     let centerIdx = -1;
@@ -52,7 +51,7 @@ function solution(numbers, hand){
             continue;
         }
 
-        centerIdx = num === 0 ? 4 : ( num + 1 ) / 3;
+        centerIdx = num === 0 ? 4 : (num + 1) / 3;
         distance['left'] = Math.abs(handIdx['left'] - centerIdx) + (isCenter['left'] ? 0 : 1);
         distance['right'] = Math.abs(handIdx['right'] - centerIdx) + (isCenter['right'] ? 0 : 1);
 
