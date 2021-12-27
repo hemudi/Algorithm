@@ -1,67 +1,60 @@
 // 프로그래머스
 // [1차] 다트 게임
 // https://programmers.co.kr/learn/courses/30/lessons/17682
-
-/*
-
-    1. 이전 라운드의 점수를 저장해놓을 변수 선언 => preScore
-    2. 현재 라운드의 점수를 계산 => 제곱근 배열에 객체를 이용해 인수를 전달
-    3. 이전 라운드의 점수에 변동이 있다면 현재 점수에 이전 라운드 점수 빼고 계산한 라운드 점수 더함
-    4. 현재 라운드의 점수를 이전 라운드의 점수로 바꾸고 다음 차례로 넘김
-
-*/
+// splice 땜에 O(N^2)...
 
 function solution(dartResult){
+    let dartArray = dartResult.split("");
     let scores = {
         result : 0,
-        preScore : 0,
-        current : 0
+        pre : 0,
+        current : 0,
     }
-    // let answer = 0;
-    // let preScore = 0;
-    // let currentScore = 0;
-    let dartArray = dartResult.split("");
 
+    while(dartArray.length !== 0){
+        scores.current = getCurrentScore(dartArray);
+
+        if(dartArray[0] !== undefined && isNaN(dartArray[0])){
+            calcOption(scores, dartArray[0]);  
+            dartArray.splice(0, 1);            
+        }
+        
+        scores.result += scores.current;
+        scores.pre = scores.current;
+    }
+
+    return scores.result;
+}
+
+function getCurrentScore(dartArray){
+    let current;
     const bonus = {
         S : 1,
         D : 2,
         T : 3
     }
 
-    while(dartArray.length !== 0){
-        if(isNaN(dartArray[1])){
-            scores.current = dartArray[0] ** bonus[dartArray[1]];
-            dartArray.splice(0, 2);
-        } else {
-            currentScore = 10 ** bonus[dartArray[2]];
-            dartArray.splice(0, 3);
-        }
-
-        if(isNaN(dartArray[0]) && dartArray[0] !== undefined){
-            ({ ans, cur } = calcOption(answer, preScore, currentScore, dartArray[0]));
-            answer = ans;
-            currentScore = cur;
-            dartArray.splice(0, 1);
-        } else {
-            answer += currentScore;
-        }
-
-        preScore = currentScore;
+    // case 2 : 점수가 10인경우 => [1, 0, S]
+    if(dartArray[1] !== '0'){
+        current = dartArray[0] ** bonus[dartArray[1]];
+        dartArray.splice(0, 2);
+    } else {
+        current = 10 ** bonus[dartArray[2]];
+        dartArray.splice(0, 3);
     }
 
-    return answer;
+    return current;
 }
 
-function calcOption(answer, preScore, currentScore, option){
+function calcOption(scores, option){
     if(option === '*'){
-        currentScore += currentScore;
-        answer += preScore + currentScore;
+        scores.current += scores.current;
+        scores.result += scores.pre;
     } else {
-        currentScore = -currentScore;
-        answer += currentScore;
+        scores.current = -scores.current;
     }
 
-    return { ans : answer, cur : currentScore };
+    return scores;
 }
 
 const testCase = [
