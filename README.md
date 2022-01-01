@@ -36,6 +36,7 @@
 |[문자열을 정수로 바꾸기](https://programmers.co.kr/learn/courses/30/lessons/12925)|[코드](Programmers/programmers_12925.js)|✅|
 |[완주하지 못한 선수](https://programmers.co.kr/learn/courses/30/lessons/42576)|[코드](Programmers/programmers_42576.js)|✅|
 |[직사각형 별찍기](https://programmers.co.kr/learn/courses/30/lessons/12969)|[코드](Programmers/programmers_12969.js)|✅|
+|[문자열 내 마음대로 정렬하기](https://programmers.co.kr/learn/courses/30/lessons/12915)|[코드](Programmers/programmers_12915.js)|✅|
 ---
 ### __🗂 HackerRank__
 |문제|풀이|해결|
