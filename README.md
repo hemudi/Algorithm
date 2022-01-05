@@ -11,6 +11,9 @@
 |[11654번 아스키 코드](https://www.acmicpc.net/problem/11654)|[코드](Baekjoon/baekjoon_11654.js)|✅|
 |[2438번 별 찍기 - 1](https://www.acmicpc.net/problem/2438)|[코드](Baekjoon/baekjoon_2438.js)|✅|
 |[2438번 별 찍기 - 2](https://www.acmicpc.net/problem/2439)|[코드](Baekjoon/baekjoon_2438.js)|✅|
+|[분산처리](https://www.acmicpc.net/problem/1009)|[코드](Baekjoon/baekjoon_1009.js)|✅|
+|[저항](https://www.acmicpc.net/problem/1076)|[코드](Baekjoon/baekjoon_1076.js)|✅|
+|[큰 수 A+B](https://www.acmicpc.net/problem/8958)|[코드](Baekjoon/baekjoon_8958.js)|✅|
 ---
 ### __🗂 프로그래머스__
 |문제|풀이|해결|
