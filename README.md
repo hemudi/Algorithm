@@ -57,3 +57,5 @@
 |[Roman To Integer](https://leetcode.com/problems/roman-to-integer/)|[코드](LeetCode/leetcode_roman_to_integer.js)|✅|
 |[Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/)|[코드](LeetCode/leetcode_longest_common_prefix.js)|✅|
 |[Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)|[코드1](LeetCode/leetcode_merge_sorted_lists.js) [코드2](LeetCode/leetcode_merge_sorted_lists_recursive.js)|✅|
+|[Remove Duplicates From Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list₩/)|[코드](LeetCode/leetcode_remove_duplicates_from_sorted_list.js)|✅|
+|[Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)|[코드](LeetCode/leetcode_linked_list_cycle.js)|✅|
