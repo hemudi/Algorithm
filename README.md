@@ -42,6 +42,7 @@
 |[문자열 내 마음대로 정렬하기](https://programmers.co.kr/learn/courses/30/lessons/12915)|[코드](Programmers/programmers_12915.js)|✅|
 |[자연수 뒤집어 배열로 만들기](https://programmers.co.kr/learn/courses/30/lessons/12932)|[코드](Programmers/programmers_12932.js)|✅|
 |[같은 숫자는 싫엉](https://programmers.co.kr/learn/courses/30/lessons/12906)|[코드](Programmers/programmers_12906.js)|✅|
+|[문자열 내림차순으로 배치하기](https://programmers.co.kr/learn/courses/30/lessons/12917)|[코드](Programmers/programmers_12917.js)|✅|
 ---
 ### __🗂 HackerRank__
 |문제|풀이|해결|
