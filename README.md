@@ -49,6 +49,7 @@
 |문제|풀이|해결|
 |:---:|:---:|:---:|
 |[Grading Students](https://www.hackerrank.com/challenges/grading/problem)|[코드](HackerRank/hacker_rank_grading_students.js)|✅|
+|[Diagonal Difference](https://www.hackerrank.com/challenges/diagonal-difference/problem)|[코드](HackerRank/hacker_rank_diagonal_difference.js)|✅|
 ---
 ### __🗂 Leet Code__
 |문제|풀이|해결|
