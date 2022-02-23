@@ -45,6 +45,7 @@
 |[문자열 내림차순으로 배치하기](https://programmers.co.kr/learn/courses/30/lessons/12917)|[코드](Programmers/programmers_12917.js)|✅|
 |[이상한 문자 만들기](https://programmers.co.kr/learn/courses/30/lessons/12930)|[코드](Programmers/programmers_12930.js)|✅|
 |[행렬의 곱셈](https://programmers.co.kr/learn/courses/30/lessons/12949)|[코드](Programmers/programmers_12949.js)|✅|
+|[가장 큰 수](https://programmers.co.kr/learn/courses/30/lessons/42746)|[코드](Programmers/programmers_42746.js)|✅|
 ---
 ### __🗂 HackerRank__
 |문제|풀이|해결|
@@ -66,3 +67,4 @@
 |[Remove Duplicates From Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list₩/)|[코드](LeetCode/leetcode_remove_duplicates_from_sorted_list.js)|✅|
 |[Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)|[코드](LeetCode/leetcode_linked_list_cycle.js)|✅|
 |[Squares of Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/)|[코드](LeetCode/leetcode_squares_of_a_sorted_array.js)|✅|
+|[Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/)|[코드](LeetCode/leetcode_middle_of_the_linked_list.js)|✅|
