@@ -46,6 +46,7 @@
 |[이상한 문자 만들기](https://programmers.co.kr/learn/courses/30/lessons/12930)|[코드](Programmers/programmers_12930.js)|✅|
 |[행렬의 곱셈](https://programmers.co.kr/learn/courses/30/lessons/12949)|[코드](Programmers/programmers_12949.js)|✅|
 |[가장 큰 수](https://programmers.co.kr/learn/courses/30/lessons/42746)|[코드](Programmers/programmers_42746.js)|✅|
+|[신규 아이디 추천](https://programmers.co.kr/learn/courses/30/lessons/72410)|[코드](Programmers/programmers_72410.js)|✅|
 ---
 ### __🗂 HackerRank__
 |문제|풀이|해결|
@@ -68,3 +69,4 @@
 |[Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)|[코드](LeetCode/leetcode_linked_list_cycle.js)|✅|
 |[Squares of Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/)|[코드](LeetCode/leetcode_squares_of_a_sorted_array.js)|✅|
 |[Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/)|[코드](LeetCode/leetcode_middle_of_the_linked_list.js)|✅|
+|[Single Number](https://leetcode.com/problems/single-number/submissions/)|[코드](LeetCode/leetcode_single_number.js)|✅|
