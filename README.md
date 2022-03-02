@@ -70,4 +70,5 @@
 |[Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)|[코드](LeetCode/leetcode_linked_list_cycle.js)|✅|
 |[Squares of Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/)|[코드](LeetCode/leetcode_squares_of_a_sorted_array.js)|✅|
 |[Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/)|[코드](LeetCode/leetcode_middle_of_the_linked_list.js)|✅|
-|[Single Number](https://leetcode.com/problems/single-number/submissions/)|[코드](LeetCode/leetcode_single_number.js)|✅|
+|[Single Number](https://leetcode.com/problems/single-number/)|[코드](LeetCode/leetcode_single_number.js)|✅|
+|[Happy Number]( https://leetcode.com/problems/happy-number/)|[코드](LeetCode/leetcode_happy_number.js)|✅|
