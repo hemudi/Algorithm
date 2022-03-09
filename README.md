@@ -74,3 +74,5 @@
 |[Happy Number](https://leetcode.com/problems/happy-number/)|[코드](LeetCode/leetcode_happy_number.js)|✅|
 |[Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)|[코드](LeetCode/leetcode_climbing_stairs.js)|✅|
 |[Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/)|[코드](LeetCode/leetcode_binary_tree_inorder.js)|✅|
+|[Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)|[코드](LeetCode/leetcode_maximum_depth.js)|✅|
+
