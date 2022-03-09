@@ -48,6 +48,8 @@
 |[가장 큰 수](https://programmers.co.kr/learn/courses/30/lessons/42746)|[코드](Programmers/programmers_42746.js)|✅|
 |[신규 아이디 추천](https://programmers.co.kr/learn/courses/30/lessons/72410)|[코드](Programmers/programmers_72410.js)|✅|
 |[예산](https://programmers.co.kr/learn/courses/30/lessons/12982)|[코드](Programmers/programmers_12982.js)|✅|
+|[비밀지도](https://programmers.co.kr/learn/courses/30/lessons/17681)|[코드](Programmers/programmers_17681.js)|✅|
+
 ---
 ### __🗂 HackerRank__
 |문제|풀이|해결|
