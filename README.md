@@ -50,6 +50,7 @@
 |[예산](https://programmers.co.kr/learn/courses/30/lessons/12982)|[코드](Programmers/programmers_12982.js)|✅|
 |[비밀지도](https://programmers.co.kr/learn/courses/30/lessons/17681)|[코드](Programmers/programmers_17681.js)|✅|
 |[폰켓몬](https://programmers.co.kr/learn/courses/30/lessons/1845)|[코드](Programmers/programmers_1845js)|✅|
+|[신고 결과 받기](https://programmers.co.kr/learn/courses/30/lessons/92334)|[코드](Programmers/programmers_92334js)|✅|
 
 ---
 ### __🗂 HackerRank__
@@ -78,4 +79,5 @@
 |[Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)|[코드](LeetCode/leetcode_climbing_stairs.js)|✅|
 |[Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/)|[코드](LeetCode/leetcode_binary_tree_inorder.js)|✅|
 |[Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)|[코드](LeetCode/leetcode_maximum_depth.js)|✅|
-
+|[Contains Duplicate](https://leetcode.com/problems/contains-duplicate)|[코드](LeetCode/leetcode_contains_duplicate.js)|✅|
+|[Valid Palindrome]( https://leetcode.com/problems/valid-palindrome/)|[코드](LeetCode/leetcode_valid_palindrome.js)|✅|
