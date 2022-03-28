@@ -50,7 +50,8 @@
 |[예산](https://programmers.co.kr/learn/courses/30/lessons/12982)|[코드](Programmers/programmers_12982.js)|✅|
 |[비밀지도](https://programmers.co.kr/learn/courses/30/lessons/17681)|[코드](Programmers/programmers_17681.js)|✅|
 |[폰켓몬](https://programmers.co.kr/learn/courses/30/lessons/1845)|[코드](Programmers/programmers_1845js)|✅|
-|[신고 결과 받기](https://programmers.co.kr/learn/courses/30/lessons/92334)|[코드](Programmers/programmers_92334js)|✅|
+|[신고 결과 받기](https://programmers.co.kr/learn/courses/30/lessons/92334)|[코드](Programmers/programmers_92334.js)|✅|
+|[가장 큰 정사각형 찾기](https://programmers.co.kr/learn/courses/30/lessons/12905)|[코드](Programmers/programmers_12905.js)|✅|
 
 ---
 ### __🗂 HackerRank__
