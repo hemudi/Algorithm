@@ -58,6 +58,7 @@
 |        [신고 결과 받기](https://programmers.co.kr/learn/courses/30/lessons/92334)        | [코드](Programmers/programmers_92334.js) |  ✅  |
 |    [가장 큰 정사각형 찾기](https://programmers.co.kr/learn/courses/30/lessons/12905)     | [코드](Programmers/programmers_12905.js) |  ✅  |
 |          [소수 찾기](https://programmers.co.kr/learn/courses/30/lessons/42839)           | [코드](Programmers/programmers_42839.js) |  ✅  |
+|      [이전 변환 반복하기](https://programmers.co.kr/learn/courses/30/lessons/70129)      | [코드](Programmers/programmers_70129.js) |  ✅  |
 
 ---
 
